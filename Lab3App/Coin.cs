@@ -21,6 +21,7 @@ namespace Lab3App
         {
             base.AddMe(collected);
             UpdateTotalValue();
+            Console.WriteLine("Total Value is updated to: " + base.Board.TotalValue);
         }
     }
 }
